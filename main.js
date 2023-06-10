@@ -1,4 +1,3 @@
-
 //window risize
 window.onresize = function(){ 
   location.reload(); 
