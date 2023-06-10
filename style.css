@@ -8,19 +8,16 @@
   user-select:none;
 }
 
-
 /*--color shotcut--*/
 :root {
   --black:#000;
   --white:#fff;
 }
 
-
 body{
   font-family: 'Roboto', sans-serif;
   overflow-x:hidden;
 }
-
 
 header{
   background:url('https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg');
