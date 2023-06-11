@@ -692,16 +692,13 @@ footer .footer-copyright .social .fa:hover{
   
 }
 
-
 /*---- media queary min--600px & max--749px ----*/
 
 @media (min-width: 600px) and (max-width:749px) {
   
-  
   header{
     background-position:center;
   }
-  
   
   header nav ul:nth-child(2){
     position:absolute;
@@ -724,7 +721,6 @@ footer .footer-copyright .social .fa:hover{
     text-align:center;
     transition:all .5s;
   }
-  
   
   header nav ul:nth-child(3) li{
     margin:5px 0;
@@ -754,11 +750,9 @@ footer .footer-copyright .social .fa:hover{
     color:#008ED1;
   }
   
-  
   header .content{
     left:50px;
   }
-  
   
   section .brands .carousel{
   padding:0px 50px;
@@ -768,7 +762,6 @@ footer .footer-copyright .social .fa:hover{
   section .brands .carousel .owl-nav{
   padding:0  50px;
  }
-  
   
   section .discount{
     padding:0 50px;
@@ -814,12 +807,9 @@ footer .footer-copyright .social .fa:hover{
   padding-bottom:100px;
   }
   
-  
-  
   footer .offer-info{
   padding:50px 50px;
   }
-
 
   footer .footer-info{
   gap:30px;
@@ -833,12 +823,9 @@ footer .footer-copyright .social .fa:hover{
   }
 }
 
-
-
 /*---- media queary min--0px & max--599px ----*/
 
 @media (min-width: 0px) and (max-width:599px) {
-  
   
   header{
     background-position:center;
@@ -883,7 +870,6 @@ footer .footer-copyright .social .fa:hover{
     text-align:center;
     transition:all .5s;
   }
-  
   
   header nav ul:nth-child(3) li{
     margin:5px 0;
@@ -953,7 +939,6 @@ footer .footer-copyright .social .fa:hover{
     padding:30px 15px;
   }
   
-  
   section .discount .discount-box h3{
     font-size:1.4em;
   }
@@ -973,12 +958,10 @@ footer .footer-copyright .social .fa:hover{
     text-align:center;
   }
   
-  
   section .limited-Offer{
   padding:0px 10px;
   padding-bottom:100px;
   }
-  
   
   section .limited-Offer .offer-content .content-box{
     left:20px;
@@ -991,13 +974,10 @@ footer .footer-copyright .social .fa:hover{
   padding-bottom:100px;
   }
   
-  
-  
   footer .offer-info{
   padding:50px 10px;
     font-size:1em;
   }
-
 
   footer .footer-info{
   gap:30px;
@@ -1010,5 +990,4 @@ footer .footer-copyright .social .fa:hover{
     font-size:.80em;
     gap:10px;
   }
-  
 }
