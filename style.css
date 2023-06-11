@@ -29,7 +29,6 @@ header{
   position:relative;
 }
 
-
 header:before{
   content:"";
   width:100%;
@@ -40,7 +39,6 @@ header:before{
   z-index:0;
   background:rgba(0, 125, 196,.3);
 }
-
 
 header nav{
   background:rgba(0, 52, 82,.15);
@@ -76,11 +74,9 @@ header nav ul li:hover{
   color:#008ED1;
 }
 
-
 header nav ul:nth-child(2){
   height:auto;
 }
-
 
 header nav ul:nth-child(3){
   position:absolute;
@@ -88,7 +84,6 @@ header nav ul:nth-child(3){
   right:30px;
   font-weight:100;
 }
-
 
 header .content{
   position:absolute;
@@ -100,11 +95,9 @@ header .content{
   width:400px;
 }
 
-
 header .content  .heading{
   font-size:3em;
 }
-
 
 header .content h4{
   margin-top:20px;
@@ -127,12 +120,10 @@ header .content button{
   transition:all .5s;
 }
 
-
 header .content .shopNow{
   background:var(--white);
   color:var(--black);
 }
-
 
 header .content .shopNow:hover{
   background:var(--black);
@@ -140,22 +131,18 @@ header .content .shopNow:hover{
   border:1px solid #000;
 }
 
-
 header .content .findMore:hover{
   background:var(--white);
   color:#000;
 }
 
-
 /*--- section code----*/
-
 section .brands{
   width: 100%;
   margin:50px 0;
   display:flex;
   justify-content:center;
 }
-
 
 section .brands .carousel{
   max-width: 1200px;
@@ -171,7 +158,6 @@ section .brands .carousel .card{
   margin: 0px 0;
   width:150px;
 }
-
 
 section .brands .carousel .card > img{
   width:100px;
@@ -193,8 +179,6 @@ section .brands .carousel .owl-nav{
   justify-content:space-between;
 }
 
-
-
 section .discount{
   padding:0 100px;
   display:grid;
@@ -202,7 +186,6 @@ section .discount{
   gap:10px;
   padding-bottom:100px;
 }
-
 
 section .discount .discount-box{
   background:#eee;
@@ -231,14 +214,11 @@ section .discount .discount-box:nth-child(1){
   background-position:center;
 }
 
-
 section .discount .discount-box:nth-child(2){
   background:url('https://static.cilory.com/470794-thickbox_default/nologo-cotton-white-round-neck-tee.jpg');
   background-size:cover;
   background-position:center;
 }
-
-
 
 section .discount .discount-box:nth-child(3){
   background:url('https://scontent.fdel52-1.fna.fbcdn.net/v/t1.6435-9/106640710_1651542364993885_6941941210182458416_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=973b4a&_nc_ohc=uSZl0ANehhkAX9w0lec&_nc_ht=scontent.fdel52-1.fna&oh=00_AfBCjMY6bqNc3CNuM-34IFpFZpkToXQChG2dHvjLf8cPhQ&oe=64A66EB0');
@@ -246,7 +226,6 @@ section .discount .discount-box:nth-child(3){
   background-repeat:no-repeat;
   background-position:center;
 }
-
 
 section .discount .discount-box > h3,p,button{
   position:relative;
@@ -280,8 +259,6 @@ section .discount .discount-box > button:hover{
   color:var(--white);
 }
 
-
-
 section .featured-Products{
   background:#eee;
   padding:100px 100px;
@@ -292,7 +269,6 @@ section .featured-Products{
   position:relative;
 }
 
-
 section .featured-Products h2{
   position:absolute;
   top:80px;
@@ -301,7 +277,6 @@ section .featured-Products h2{
   font-size:2.5em;
   padding:10px 0;
 }
-
 
 section .featured-Products h2:after{
   content:'';
@@ -313,7 +288,6 @@ section .featured-Products h2:after{
   height:1px;
   background:#0093E7;
 }
-
 
 section .featured-Products .product{
   height:350px;
@@ -339,11 +313,9 @@ section .featured-Products .product img{
   cursor:pointer;
 }
 
-
 section .featured-Products .product:hover .fa-shopping-basket{
   opacity:1;
 }
-
 
 section .featured-Products .product .sale{
   position:absolute;
@@ -354,7 +326,6 @@ section .featured-Products .product .sale{
   border-radius:20px;
   box-shadow:0 0 7px #aaa;
 }
-
 
 section .featured-Products .product .product-content{
   line-height:22px;
@@ -375,7 +346,6 @@ section .featured-Products .product .product-content .price span{
   text-decoration:line-through;
   color:#999;
 }
-
 
 section .featured-Products .product .product-content .stars{
   font-size:.75em;
@@ -398,11 +368,9 @@ section .featured-Products .product .product-content .colors-option span:hover{
   border:2px solid var(--black);
 }
 
-
 section .featured-Products .product .product-content .colors-option span.sheoActive,.braceletActive,.bagActive{
   border:2px solid var(--black);
 }
-
 
 section .featured-Products .product .product-content .colors-option span:nth-child(1){
   background:#0183CD;
@@ -416,14 +384,11 @@ section .featured-Products .product .product-content .colors-option span:nth-chi
   background:#C104AD;
 }
 
-
-
 section .limited-Offer{
   background:#eee;
   padding:0px 100px;
   padding-bottom:100px;
 }
-
 
 section .limited-Offer .offer-content{
   background:url('https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-03.jpg');
@@ -443,7 +408,6 @@ section .limited-Offer .offer-content .content-box{
   transform:translate(0,-50%);
 }
 
-
 section .limited-Offer .offer-content:before{
   content:'';
   position:absolute;
@@ -454,25 +418,19 @@ section .limited-Offer .offer-content:before{
   background:rgba(0, 125, 196,.3);
 }
 
-
-
-
 section .limited-Offer .offer-content .content-box .offer{
   font-size:.95em;
   margin:10px 0;
 }
-
 
 section .limited-Offer .offer-content .content-box h3{
   font-size:2.4em;
   margin-bottom:10px;
 }
 
-
 section .limited-Offer .offer-content .content-box .content{
   font-size:.85em;
 }
-
 
 section .limited-Offer .offer-content .content-box button{
   border:none;
@@ -487,12 +445,10 @@ section .limited-Offer .offer-content .content-box button{
   transition:all .3s;
 }
 
-
 section .limited-Offer .offer-content .content-box button:hover{
   background:var(--black);
   color:var(--white);
 }
-
 
 section .info{
   background:#eee;
@@ -503,12 +459,10 @@ section .info{
   padding-bottom:100px;
 }
 
-
 section .info .info-section{
   text-align:center;
   line-height:26px;
 }
-
 
 section .info .info-section img{
   width:50px;
