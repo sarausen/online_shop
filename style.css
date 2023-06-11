@@ -470,18 +470,15 @@ section .info .info-section img{
   object-fit:contain;
 }
 
-
 section .info .info-section p{
   color:#333;
   font-size:.95em;
 }
 
-
 /*--- footer ----- */
 footer{
   background:var(--white);
 }
-
 
 footer .offer-info{
   padding:50px 100px;
@@ -492,7 +489,6 @@ footer .offer-info{
   border-bottom:1px solid #ccc;
 }
 
-
 footer .footer-info{
   background:var(--white);
   display:grid;
@@ -501,7 +497,6 @@ footer .footer-info{
   padding:50px 100px;
   border-bottom:1px solid #ccc;
 }
-
 
 footer .footer-info .container img{
   width:80px;
@@ -531,7 +526,6 @@ footer .footer-info .container ul li:hover{
   color:#008ED1; 
 }
 
-
 footer .footer-info .container form .name{
   border:1px solid #ccc;
   outline:none;
@@ -544,7 +538,6 @@ footer .footer-info .container form .name{
 footer .footer-info .container form .name:focus{
   border:1px solid #000;
 }
-
 
 footer .footer-info .container form .submit{
   border:none;
@@ -563,7 +556,6 @@ footer .footer-info .container form .submit:hover{
   background:var(--black);
 }
 
-
 footer .footer-copyright{
   display:flex;
   justify-content:space-between;
@@ -573,7 +565,6 @@ footer .footer-copyright{
 footer .footer-copyright .copyright{
   font-size:.95em;
 }
-
 
 footer .footer-copyright .social{
   display:flex;
@@ -585,16 +576,13 @@ footer .footer-copyright .social .fa{
   font-size:1.2em;
 }
 
-
 footer .footer-copyright .social .fa:hover{
   color:#008ED1;
 }
 
-
 /*---- media queary min--750px & max--999px ----*/
 
 @media (min-width: 750px) and (max-width:999px) {
-  
   
   header nav ul:nth-child(2){
     position:absolute;
@@ -616,7 +604,6 @@ footer .footer-copyright .social .fa:hover{
     text-align:center;
     transition:all .5s;
   }
-  
   
   header nav ul:nth-child(3) li{
     margin:5px 0;
@@ -646,11 +633,9 @@ footer .footer-copyright .social .fa:hover{
     color:#008ED1;
   }
   
-  
   header .content{
     left:50px;
   }
-  
   
   section .brands .carousel{
   padding:0px 50px;
@@ -660,7 +645,6 @@ footer .footer-copyright .social .fa:hover{
   section .brands .carousel .owl-nav{
   padding:0  50px;
  }
-  
   
   section .discount{
     padding:0 50px;
@@ -672,7 +656,6 @@ footer .footer-copyright .social .fa:hover{
     padding:30px 15px;
   }
   
-  
   section .discount .discount-box h3{
     font-size:1em;
   }
@@ -682,7 +665,6 @@ footer .footer-copyright .social .fa:hover{
   padding-top:200px;
   grid-template-columns: auto auto auto;
  }
-  
   
   section .limited-Offer{
   padding:0px 50px;
@@ -695,12 +677,9 @@ footer .footer-copyright .social .fa:hover{
   padding-bottom:100px;
   }
   
-  
-  
   footer .offer-info{
   padding:50px 50px;
   }
-
 
   footer .footer-info{
   gap:10px;
